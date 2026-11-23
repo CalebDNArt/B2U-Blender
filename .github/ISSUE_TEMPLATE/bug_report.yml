@@ -1,0 +1,86 @@
+name: Bug Report
+description: Report a bug, baking issue, or Python traceback in the B2U Blender addon.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue in **B2U Material Master (Blender)**! Filling out the details below helps reproduce and fix addon bugs quickly.
+
+  - type: input
+    id: addon-version
+    attributes:
+      label: B2U Addon Version
+      placeholder: "e.g., 1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: blender-version
+    attributes:
+      label: Blender Version
+      placeholder: "e.g., 5.0.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      options:
+        - Windows
+        - macOS
+        - Linux
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected Area
+      options:
+        - Addon Installation / Preferences
+        - Palette Creation & Material Editing
+        - Schema Editor
+        - LUT / JSON Export & Import
+        - Material Assignment / Painting Tools
+        - Vertex / UV / Edge / Flow Baking
+        - Mesh Export to Unity
+        - Viewport Shader Preview
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected to happen instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to Reproduce
+      description: List the steps needed to trigger the issue.
+      placeholder: |
+        1. Select...
+        2. Click...
+        3. Observe...
+    validations:
+      required: true
+
+  - type: textarea
+    id: traceback
+    attributes:
+      label: Blender System Console / Python Traceback
+      description: Copy any error output from Window -> Toggle System Console (if applicable).
+      render: python
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / Minimal .blend Info
+      description: Drag and drop screenshots or describe the mesh/palette setup here.
