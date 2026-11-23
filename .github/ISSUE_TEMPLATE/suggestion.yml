@@ -1,0 +1,46 @@
+name: Feature Suggestion
+description: Suggest a new tool, workflow improvement, or export option for the B2U Blender addon.
+title: "[Suggestion]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for **B2U Material Master (Blender)**? Describe what you would like to see below!
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Palette & Schema Management
+        - Material Painting & Assignment
+        - Baking & Mesh Export
+        - Viewport Preview
+        - UI / Ergonomics
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem or workflow bottleneck does this solve?
+      description: Explain what you are trying to do in Blender and what feels slow or missing today.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe how you envision this feature working in the addon.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context / References
+      description: Add any screenshots, mockups, or examples if helpful.
