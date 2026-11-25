@@ -1,0 +1,24 @@
+schema_version = "1.0.0"
+
+id = "b2u_material_master"
+version = "1.0.0"
+name = "B2U Material Master"
+tagline = "A full pipeline addon for authoring vertex data and LUT driven materials in Unity"
+maintainer = "DNArt"
+website = "https://dnart.ca/b2u/"
+copyright = ["2026 DNArt"]
+type = "add-on"
+blender_version_min = "5.1.2"
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Material", "Mesh"]
+
+[permissions]
+files = "Save and load B2U JSON palettes and export 8-bit PNG LUT textures to your Unity project"
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  "/.git/",
+  "*.blend1",
+  "/.gitignore",
+]
