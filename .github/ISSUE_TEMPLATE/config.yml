@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: B2U Documentation & Guides
+    url: https://dnart.ca/b2u
+    about: Check the setup guides and Blender workflow documentation before opening an issue.
+  - name: B2U Unity Package Issues
+    url: https://github.com/YOUR_USERNAME/B2U-Unity/issues
+    about: Report bugs or request features for the Unity URP package instead.
