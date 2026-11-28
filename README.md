@@ -4,6 +4,8 @@ A full pipeline add-on for authoring vertex data and LUT-driven materials for Un
 
 > [!WARNING]
 > **Beta Release:** B2U is still in active beta, so expect occasional bugs and rough edges. Please report issues or suggest features on the [Issue Tracker](https://github.com/CalebDNArt/B2U-Blender/issues).
+> [!NOTE]
+> **AI USE DISCLAIMER:** AI was used in the development of code for this package. As a solo developer, I would not have been able to build this package in less than a year without it. I wrote the majority of the code myself, with AI used for bug fixing and code review. **NO AI HAS BEEN USED FOR ANY IMAGE ASSETS.** All default images were created by hand in Blender or Photoshop. If you do not feel comfortable using the package due to AI usage, I absolutely respect your right to decline—please feel free to reference the source code if you would like to develop your own version. Thank you!
 
 ---
 
